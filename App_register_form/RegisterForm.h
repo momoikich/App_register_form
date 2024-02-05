@@ -175,6 +175,7 @@ namespace Appregisterform {
 			// 
 			this->tbPassword->Location = System::Drawing::Point(263, 283);
 			this->tbPassword->Name = L"tbPassword";
+			this->tbPassword->PasswordChar = '*';
 			this->tbPassword->Size = System::Drawing::Size(562, 38);
 			this->tbPassword->TabIndex = 2;
 			// 
@@ -190,6 +191,7 @@ namespace Appregisterform {
 			// 
 			this->tbConfirm->Location = System::Drawing::Point(263, 327);
 			this->tbConfirm->Name = L"tbConfirm";
+			this->tbConfirm->PasswordChar = '*';
 			this->tbConfirm->Size = System::Drawing::Size(562, 38);
 			this->tbConfirm->TabIndex = 2;
 			// 
